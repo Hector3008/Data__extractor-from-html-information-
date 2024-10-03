@@ -1,0 +1,12 @@
+{
+  "name": "hildemaro",
+  "version": "1.0.0",
+  "description": "testing repository",
+  "main": "main.js",
+  "scripts": {
+    "test": "start",
+    "start": "node mains.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
