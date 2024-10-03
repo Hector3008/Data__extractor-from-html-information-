@@ -1,12 +1,16 @@
 {
-  "name": "hildemaro",
+  "name": "hildemaros",
   "version": "1.0.0",
-  "description": "testing repository",
+  "description": "",
   "main": "main.js",
+  "type": "module",
   "scripts": {
-    "test": "start",
-    "start": "node mains.js"
+    "start": "node main.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "jsdom": "^25.0.1"
+  }
 }
