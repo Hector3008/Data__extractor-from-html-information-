@@ -13,6 +13,8 @@ Por lo cual, el operador de este script debe manejarlo en base a los recursos de
 Esto se controla desde las variables "first" y "last" en las líneas 11 y 12 del código.
 Esas variables definirán el queryparam en la url del catálogo. Para solo consultar 6 páginas del mismo por acción. Ya que cada página cuenta con 15 productos en su interior.
 
+(Según la arquitectura del sitio web, el catálogo está dividido en varias subpáginas según categorías. Por lo cual, hay que ir modificando la ruta en varias ocasiones. Esto se hace cambiando el contenido de la variable "main__URL" en el archivo "main__URL.js")
+
 Con cada acción se genera un archivo .txt donde se escribe la información extraida. Y esta información se va traslandado manualmente a un archivo final llamado HILDEMARO_data.txt.
 
 Con esto, el código corrió unas 30 veces para extraer toda la data. Vigilando y siguiendo todo el proceso por parte del operador.
